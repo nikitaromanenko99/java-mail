@@ -15,8 +15,9 @@ public class Test_SendMail {
 		String	subject = "subje";
 		String 	body = "Test Reminder";
 		String	files = "";
+		int port = 25;
 		
-		sender.send(host, to, from, subject, body, files);
+		sender.send(host, port, to, from, subject, body, files);
 		
 	}
 

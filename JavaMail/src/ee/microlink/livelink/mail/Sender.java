@@ -27,10 +27,11 @@ public class Sender {
   public Sender(String logFilePath) {
   }
   
-  public void send(String host, String to, String from, String subject, String body, String files) {
+  public void send(String host, int port, String to, String from, String subject, String body, String files) {
     boolean debug = true;
     Properties props = new Properties();
     props.put("mail.smtp.host", host);
+    props.put("mail.smtp.port", port);
     if (debug)
       props.put("mail.debug", host); 
     Session session = Session.getInstance(props, null);
