@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="JavaMail/src"/>
+	<classpathentry kind="lib" path="JavaMail/lib/activation.jar"/>
+	<classpathentry kind="lib" path="JavaMail/lib/javax.activation-api.jar"/>
+	<classpathentry kind="lib" path="JavaMail/lib/mail.jar"/>
+	<classpathentry kind="lib" path="JavaMail/nortal-mail-1.0.1.jar"/>
+	<classpathentry kind="output" path="JavaMail/bin"/>
+</classpath>
